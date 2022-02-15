@@ -12114,6 +12114,24 @@ p.lead {
   grid-row-gap: 10px;
 }
 
+@media (max-width: 900px) {
+  .languages {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+  }
+
+  .frameworks, .tools {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+  }
+}
+
 section.resume-section {
   display: flex;
   align-items: center;
