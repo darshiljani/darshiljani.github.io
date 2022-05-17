@@ -12103,7 +12103,7 @@ p.lead {
 .languages {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 5px;
   grid-row-gap: 10px;
 }
@@ -12117,15 +12117,7 @@ p.lead {
 }
 
 @media (max-width: 900px) {
-  .languages {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-  }
-
-  .frameworks, .tools {
+  .languages, .frameworks, .tools {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: repeat(4, 1fr);
